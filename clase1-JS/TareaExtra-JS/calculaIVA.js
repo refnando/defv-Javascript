@@ -1,0 +1,16 @@
+let caTomate = 3;
+let caFrijol = 0.5;
+let caAguacate = 2;
+let caCebolla = 0.25;
+let caChile = 0.25;
+let coTomate = 16.67;
+let coFrijol = 26.65;
+let coAguacate = 17;
+let coCebolla = 18.9;
+let coChile = 11.87;
+let iva = 0.16; 
+let subtotal = Number((coTomate*caTomate)+ (coFrijol*caFrijol)+(coAguacate*caAguacate)+(coCebolla*caCebolla)+(coChile*caChile) );
+console.log("Subtotal: $", subtotal);
+let ivaCompra = Number(subtotal*iva);
+console.log("IVA: $",ivaCompra);
+console.log("Total: $", subtotal+ivaCompra);
